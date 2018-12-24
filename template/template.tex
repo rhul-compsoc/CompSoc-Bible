@@ -1,0 +1,37 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{graphicx} 
+\newcommand{\authorName}{Insert Name Here}
+\newcommand{\dateWritten}{December 24\textsuperscript{th} 2018}
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vfill
+    \includegraphics[width=10cm]{./resources/images/comp_soc_logo_short.png}
+    \vfill
+    {\bfseries\Large
+        Chapter Title\\
+        \vskip2cm
+        Written by \authorName\\
+        on \dateWritten\\
+    }    
+    \vfill
+    \vfill
+    \vfill
+\end{titlepage}
+\pagestyle{empty}
+\section*{Contributors}
+List of contributors for this chapter:
+\begin{itemize}
+    \item \authorName \, - Author (\dateWritten)
+    %\item Example - Editor (November 11\textsuperscript{th} 2018)
+\end{itemize}
+\newpage
+\tableofcontents
+\newpage
+
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\pagestyle{plain}
+\end{document}
